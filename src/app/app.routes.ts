@@ -5,6 +5,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ServicesComponent } from './services/services.component';
 import { ComputerServicesComponent } from './computer-services/computer-services.component';
 import { VideoGamesComponent } from './video-games/video-games.component';
+import { TechnologyConsultingComponent } from './technology-consulting/technology-consulting.component';
 
 export const routes: Routes = [
     { path: '', component: WelcomeComponent },
@@ -13,5 +14,6 @@ export const routes: Routes = [
     { path: 'contact', component: ContactComponent },
     { path: 'services', component: ServicesComponent},
     { path: 'computer-services', component: ComputerServicesComponent },
-    { path: 'video-games', component: VideoGamesComponent }
+    { path: 'video-games', component: VideoGamesComponent },
+    { path: 'technology-consulting', component: TechnologyConsultingComponent },
 ];
