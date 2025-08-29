@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+.store-table th {
+    font-size: 25px;
+    background: #1e7bb4;
+    color: white;
+}
+
+.store-table > tbody > tr > td  {
+   background: #F3F4F6;
+}
+
+.bg-primary {
+    background-color: #04102c !important;
+}
