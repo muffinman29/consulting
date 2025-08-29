@@ -11,3 +11,11 @@
 .bg-primary {
     background-color: #04102c !important;
 }
+
+.dropdown-toggle {
+    color: white !important;
+}
+
+.dropdown-menu {
+    background: #04102c;
+}
